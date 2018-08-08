@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<main class="content" role="main">
+  <article class="post">
+    <div class="post-meta">
+      <!--<h1 class="post-title">{{ page.title }}</h1>-->
+      <h1 class="post-title">About {{ site.title }}</h1>
+    </div>
+    <section class="post-content">
+      <a name="topofpage"></a>
+      {{content}}
+    </section>
+    
+    
+    <!--Start of footer from post.html-->
+    <div class="bottom-teaser cf">
+      <div class="isLeft">
+        <h5 class="index-headline featured"><span>Background on the author</span></h5>
+        
+        
+        <section class="author">
+          <div class="author-image"></div>
+          <h4><a href="https://jonlexa.com" target="_blank">{{ site.author_name }}</a></h4>          
+          <p class="bio">{{site.bio}}
+          <br><br>
+
+          	<span>
+          	{% if site.twitter_username %}
+          		{% include icon-twitter.html username=site.twitter_username %}
+          	{% endif %}
+          	</span>
+          </p>
+                
+        </section>
+      </div>
+      <div class="isRight">
+        <h5 class="index-headline featured"><span>Operational notes</span></h5>
+        <footer class="site-footer">
+          
+          	<section class="poweredby">Connect with us @
+				<span>
+					{% if site.instagram_username %}
+						{% include icon-instagram.html username=site.instagram_username %}
+					{% endif %}
+				</span>
+				<span>
+					{% if site.email_username %}
+						{% include icon-email.html username=site.email_username %}
+					{% endif %}
+				</span>
+			</section>
+			
+			<i>"Inspiration is for amateurs.  The rest of us just show up and get to work."</i> - Chuck Close
+			<br><br>
+			
+			<div class="inner">
+            <section class="copyright">Copyright Yugen Today &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved</section>
+          </div>
+        </footer>
+      </div>
+  <!--End of footer from post.html-->
+    
+    
+  </article>
+</main>
+
+<!--{% include footer.html %}-->

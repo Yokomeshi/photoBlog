@@ -1,0 +1,32 @@
+# Site settings
+title: Yūgen Today
+email: checkin@yugen.today
+description: >
+  Glimpses into the world around us
+logo: "/assets/images/logo.jpg"
+baseurl:
+url: "https://yokomeshi.github.io"
+paginate:	3
+
+name: 'Yūgen Today'
+author_image: "/assets/images/author.png"
+twitter_username: jonlexa
+instagram_username: yugen.today
+email_username: checkin@yugen.today
+
+author_name: Jon Lexa
+bio: >
+  Sometimes write about left turns.  Interested in circularity.
+
+# Google Analytics
+analytics_id: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate
+  - jemoji

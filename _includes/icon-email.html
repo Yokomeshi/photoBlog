@@ -1,0 +1,7 @@
+{% if include.username %}
+
+<a href="mailto:{{ site.email}}"><span class="icon icon--email">{% include icon-email.svg %}</span>email</a>
+
+{% else %}
+<span class="icon icon--email">{% include icon-email.svg %}</span>
+{% endif %}
