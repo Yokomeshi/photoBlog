@@ -2,7 +2,7 @@
 title: Yūgen Today
 email: checkin@yugen.today
 description: >
-  A journal abroad
+  A collection of essays glimpsing into various cultures around the world
 logo: "/assets/images/logo.jpg"
 baseurl:
 url: "https://yokomeshi.github.io"
@@ -16,7 +16,7 @@ email_username: checkin@yugen.today
 
 author_name: Jon Lexa
 bio: >
-  Broadly interested in the reoccuring loops in life.
+  Broadly interested in the reoccurring loops in life.
 
 # Google Analytics
 analytics_id: ""
