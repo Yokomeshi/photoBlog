@@ -1,6 +1,6 @@
 # Site settings
 title: Yūgen Today
-email: checkin@yugen.today
+email:
 description: >
   A collection of essays about culture and faraway places
 logo: "/assets/images/logo.jpg"
@@ -10,9 +10,9 @@ paginate:	3
 
 name: 'Yūgen Today'
 author_image: "/assets/images/author.png"
-twitter_username: jonlexa
+twitter_username:
 instagram_username: yugen.today
-email_username: checkin@yugen.today
+email_username:
 
 author_name: Jon Lexa
 bio: >
